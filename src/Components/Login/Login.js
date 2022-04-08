@@ -2,6 +2,7 @@ import React from "react";
 import "./AuthForm.css";
 import GoogleLogo from "../../Assets/Image/google.svg";
 import { useNavigate } from "react-router-dom";
+import auth from '../../firebase.init';
 
 const Login = () => {
   const navigate = useNavigate();

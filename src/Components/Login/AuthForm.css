@@ -4,7 +4,9 @@
   align-items: center;
   justify-content: center;
 }
-
+.text-color{
+  color: rgb(230, 53, 53);
+}
 .auth-form {
   width: 500px;
   margin: 100px auto;
