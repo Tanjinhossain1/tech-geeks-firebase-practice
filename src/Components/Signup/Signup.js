@@ -37,7 +37,6 @@ const Signup = () => {
           })
           .catch((error) => {
             console.log(error)
-            const errorMessage = error.message;
           });
       } else {
         setPasswordError('set valid email')
